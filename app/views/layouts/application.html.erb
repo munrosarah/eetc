@@ -10,35 +10,14 @@
 </head>
 <body>
   <div id="pageContainer">
-    <div id="headerContainer">
-      <a href="http://ellipsisetc.com"><div id="logo"></div></a>
-      <div id="navContainer">
-        <div id="pageTop">
-          <%= image_tag("left.gif", alt: "left") %>
-          <%= link_to image_tag("about.gif", alt: "about"), '#' %>
-          <%= link_to image_tag("whimsy.gif", alt: "whimsy"), '#' %>
-          <%= link_to image_tag("code.gif", alt: "code"), '#' %>
-          <%= link_to image_tag("news.gif", alt: "news"), '#' %>
-          <%= link_to image_tag("contact.gif", alt: "contact"), '#' %>
-        </div>
-        <div id="separator">
-          <br>
-          <div class="ellipsisHeader"><%= yield(:title) %></div>
-        </div>
-      </div>
-</div>
-
-<div id="contentContainer">
+    <%= render 'layouts/header' %>
+    <div id="contentContainer">
       <div id="sideBar"></div>
       <div id="bodyContainer">
         <div id="bodyBar">
           <%= yield %>
         </div>
-        <div id="footerContainer">
-          <br>
-          <br>
-          <div class="footerText">©2012 Sarah Munro, All Rights Reserved.</div>
-        </div>
+        <%= render 'layouts/footer' %>
       </div>
     </div>
     

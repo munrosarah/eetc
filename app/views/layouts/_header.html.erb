@@ -1,0 +1,17 @@
+<div id="headerContainer">
+  <a href="http://ellipsisetc.com"><div id="logo"></div></a>
+  <div id="navContainer">
+    <div id="pageTop">
+      <%= image_tag("left.gif", alt: "left") %>
+      <%= link_to image_tag("about.gif", alt: "about"), '#' %>
+      <%= link_to image_tag("whimsy.gif", alt: "whimsy"), '#' %>
+      <%= link_to image_tag("code.gif", alt: "code"), '#' %>
+      <%= link_to image_tag("news.gif", alt: "news"), '#' %>
+      <%= link_to image_tag("contact.gif", alt: "contact"), '#' %>
+    </div>
+    <div id="separator">
+      <br>
+      <div class="ellipsisHeader"><%= yield(:title) %></div>
+    </div>
+  </div>
+</div>
