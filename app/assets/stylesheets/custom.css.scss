@@ -1,0 +1,178 @@
+body {
+	font-size:100%;	
+}
+
+ul {
+	text-align:left;
+}
+
+
+td {
+	vertical-align: top;
+	text-align: left;
+}
+
+.footerText {
+	font-family: 'IM Fell DW Pica', serif;
+	font-size: 12px;
+}
+
+
+.ellipsisHeader {
+	font-family: 'IM Fell DW Pica', serif;
+	font-size: 30px;
+	
+}
+	
+.ellipsisBody {
+	font-family: 'Spinnaker', sans-serif;
+	font-size: 14px;
+	line-height: 125%;
+}
+
+.leftJustified{
+	text-align:left;
+}	
+
+.resumeBody{
+	text-align: left;
+	line-height:125%;
+	padding-top:0px;
+	padding-bottom:0px;
+
+}
+
+
+p.resumeH{
+	font-weight: bold;
+	text-decoration: underline;
+	padding-bottom:0px;
+}
+
+.resumeDates{
+	float:right;
+	font-size:13px;
+}
+
+.resume {
+	text-align: left;
+	margin: 0px;
+}
+.resume ul {
+	margin-top: 0px;
+	list-style:none;
+}
+
+.resume ul ul{	
+	list-style:circle;
+}
+
+
+#body{
+	height:100%;
+}
+
+
+#headerContainer{
+	height:150px;
+	width:800px;
+	margin:0;
+	padding:0;
+}
+
+#logo{
+	float:left;
+	height:150px;
+	width:175px;
+	background:url("logo.gif");
+}
+
+#navContainer{
+	float:left;
+	height:150px;
+	width:625px;
+	margin:0;
+	padding:0;
+
+}
+
+#pageTop{
+	float:left;
+	background:url("navtop.gif");
+	height:85px;
+	width:625px;
+}
+
+
+#separator{
+	float:left;
+	background:url("separator.gif") no-repeat;
+	height:65px;
+	width:625px;
+	text-align:center;
+}
+
+#contentContainer{
+	float:left;
+	width:800px;
+	min-height:100px;
+}
+
+#sideBar{
+	float:left;
+	background:url("sidebarbackground.gif") repeat-y;
+	width:175px;
+	padding: 0px;
+	min-height:100px;
+}
+
+#bodyContainer{
+	float:left;
+	width:625px;
+	min-height:100px;
+}
+
+#bodyBar{
+	float:left;
+	background:url("bodybackground.gif") repeat-y;
+	width:565px;
+	min-height:600px;
+	text-align:center;
+	padding: 0px 30px;
+}
+
+#footerContainer{
+	float:left;
+	background:url("footer.gif") no-repeat;
+	width:585px;
+	height:100px;
+	text-align:right;
+	padding: 20px;
+}
+
+#pageContainer{
+	width: 800px;
+	border: 0;
+	margin: 0 auto;
+}
+
+.imageRight{
+	float:right;
+	margin: 5px;
+	border: 0px;
+}
+
+.imageLeft{
+	float:left;
+	margin: 5px;
+	border: 0px;
+}
+
+.imageCenter{
+	display:block;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+img.hoverFade{
+}
